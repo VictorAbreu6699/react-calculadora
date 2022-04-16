@@ -3,7 +3,7 @@ import calculadoraService from './calculadora.service';
 
 describe('Teste do CalculadoraService', () => {
 
-    const [calcular, SOMA, MULTIPLICACAO, SUBTRACAO, DIVISAO] = calculadoraService()
+    const [calcular, concatenarNumero, SOMA, MULTIPLICACAO, SUBTRACAO, DIVISAO] = calculadoraService()
 
     it('deve garantir que 1 + 4 = 5.', () => {
         let soma = calcular(1, 4, SOMA)
